@@ -3,10 +3,10 @@
 int main() {
 	int space = 0;
 	int const_space = 0;
-	int a = 0; printf("사이즈 입력((N + N) * N, 10 <= N <= 35) : "); scanf_s("%d", &a);
+	int a = 0; printf("사이즈 입력((6 * N) * N, 10 <= N <= 35) : "); scanf_s("%d", &a);
 	while (a < 10 || a > 35){
 		printf("값 입력 오류, 10 <= N <= 35 \n");
-		printf("사이즈 입력((N + N) * N, 10 <= N <= 35) : "); scanf_s("%d", &a);
+		printf("사이즈 입력((6 * N) * N, 10 <= N <= 35) : "); scanf_s("%d", &a);
 	} 
 	int for_var_1 = a * 3 / 10 * 2;
 	int for_var_2 = a * 7 / 10 * 2;
