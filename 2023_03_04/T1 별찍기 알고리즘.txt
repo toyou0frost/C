@@ -1,0 +1,42 @@
+2줄 비율이 6개
+
+6 : 4
+
+빈칸 비율
+
+3 : 3
+
+
+두꺼운줄 6 : 빈칸 4
+
+두꺼운줄 3줄 : 빈칸줄 3줄
+
+줄
+빈
+줄
+빈
+줄
+빈
+
+
+기존 코드의 세로 줄 비율
+
+65 : 15 : 20
+
+개선 코드의 세로 줄 비율
+
+60 : 4 : 14 : 8 : 14
+
+*첫 줄의 비율
+
+82 : 4 : 14
+
+Return 조건
+
+공백 + 별의 개수가
+전 줄의 공백 + 별의 개수보다 크거나 같으면 Return
+
+else 초행 : space + star - 3 <= space + star + space + star
+if 초행 : space + star + space + star - 3 <= space + star
+if : space + star - 3 < space + star 
+else : space + star + space + star - 3 <= space + star + space + star
